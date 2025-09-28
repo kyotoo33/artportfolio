@@ -5,7 +5,7 @@ import Image from "next/image"
 import { Button } from "@/components/ui/button"
 import { Dialog, DialogContent, DialogTrigger } from "@/components/ui/dialog"
 
-const categories = ["All", "Photography", "3D Render"]
+const categories = ["All", "Photography", "3D Render", "Touchdesigner"]
 
 const portfolioItems = [
   { id: 1, category: "Photography", title: "Blue Hour", image: "/blues.jpg?height=1920&width=1080" },
@@ -21,7 +21,8 @@ const portfolioItems = [
   { id: 11, category: "Photography", title: "Shanghai", image: "/hero background.jpg?height=1920&width=1080" },
   { id: 12, category: "3D Render", title: "Pulsing Animation", image: "/thumbnail3.png", type: "youtube", videoId: "ebvcEJABtJ8" },
   { id: 13, category: "3D Render", title: "Streamline", image: "/streamline.png", type: "youtube", videoId: "x-hRpz-Rmrs" },
-  { id: 14, category: "Photography", title: "Beacons", image: "/beacons.jpg?height=1920&width=1080" }
+  { id: 14, category: "Photography", title: "Beacons", image: "/beacons.jpg?height=1920&width=1080" },
+  { id: 15, category: "Touchdesigner", title: "Pulsewidth.apx", image: "pulsewidth.png", type: "youtube", videoId: "GTGa3UhRxS0" }
 ]
 
 export function Portfolio() {
